@@ -15,7 +15,9 @@ export default function Logout() {
           alert("Logged Out!");
         }}
       >
-        Logout
+        <span className="sign">
+          <h2>LogOut</h2>
+        </span>
       </Button>
     </IconContext.Provider>
   );

@@ -13,14 +13,14 @@ export default function NavbarHome() {
         <Row>
           <Col className=" text-left">
             <Link id="sb" to="/">
-            <RiHomeHeartLine />
+            <RiHomeHeartLine id="home-btn"/>
             </Link>
           </Col>
-          <Col className="mt-auto text-right">
+          <Col className="my-auto text-right">
             {userLogged ? (
               <Logout /> ):(
                 <Link to="/login">
-                  <span className="signup"><h2>Signup/Login</h2></span>
+                  <span className="sign"><h2>Signup/Login</h2></span>
                 </Link>
               )
             }
