@@ -31,6 +31,12 @@ body {
   border-bottom: 5px solid $primary;
 }
 
+.sign,
+.sign:hover{
+  background-color: transparent;
+  border: none;
+}
+
 /*------------------ HOME SECTION ---------------------*/
 
 #sb {
@@ -225,7 +231,8 @@ body {
   .title {
     font-size: 2.5em;
   }
-  #signup h2 {
+  .sign,
+  .sign h2 {
     font-size: 1.5em;
   }
 }
