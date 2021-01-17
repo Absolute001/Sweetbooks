@@ -20,7 +20,7 @@ export default function NavbarHome() {
             {userLogged ? (
               <Logout /> ):(
                 <Link to="/login">
-                  <span className="sign"><h2>Signup/Login</h2></span>
+                  <span className="sign"><h5>Signup/Login</h5></span>
                 </Link>
               )
             }

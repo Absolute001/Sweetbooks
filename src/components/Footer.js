@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <Row className="text-center footer py-4">
       <IconContext.Provider value={{ className: "custom-icon" }}>
-        <Col>
+        <Col xs={3}>
           <a
             href="https://www.facebook.com/profile.php?id=100010434435290"
             target="_blank"
@@ -21,7 +21,7 @@ export default function Footer() {
             <AiOutlineFacebook />
           </a>
         </Col>
-        <Col>
+        <Col xs={3}>
           <a
             href="https://www.instagram.com/kevin.leonardo.sh/"
             target="_blank"
@@ -30,7 +30,7 @@ export default function Footer() {
             <AiOutlineInstagram />
           </a>
         </Col>
-        <Col>
+        <Col xs={3}>
           <a
             href="https://github.com/Absolute001"
             target="_blank"
@@ -39,7 +39,7 @@ export default function Footer() {
             <AiOutlineGithub />
           </a>
         </Col>
-        <Col>
+        <Col  xs={3}>
           <a
             href="https://www.linkedin.com/in/kevin-shallvari-a6177b1b8/"
             target="_blank"
