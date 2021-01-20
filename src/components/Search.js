@@ -24,7 +24,7 @@ export default function Search() {
         <Form.Row className="mt-5 px-3 px-sm-5 ">
           <Col xs={8} md={8} lg={8} className="ml-auto">
             <Form.Control
-              className="custom-input "
+              className="custom-input search-bar"
               type="text"
               placeholder="Search your favourite books..."
               onChange={searchBarUpdate}

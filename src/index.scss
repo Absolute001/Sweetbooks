@@ -247,4 +247,9 @@ body {
   .sign h2 {
     font-size: 24px;
   }
+
+  .search-bar::placeholder{
+    font-size: 0.7em;
+    font-weight: 600;
+  }
 }

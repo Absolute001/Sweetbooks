@@ -272,5 +272,21 @@ body {
   .sign h2 {
     font-size: 24px;
   }
+  .search-bar::-webkit-input-placeholder {
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  .search-bar:-ms-input-placeholder {
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  .search-bar::-ms-input-placeholder {
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  .search-bar::placeholder {
+    font-size: 0.7em;
+    font-weight: 600;
+  }
 }
 /*# sourceMappingURL=index.css.map */

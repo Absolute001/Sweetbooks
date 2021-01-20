@@ -34,7 +34,7 @@ export default function Results() {
     <div>
       <Row className="text-center mb-5">
         <Col>
-          <h2>Which will you pick today?</h2>
+          <h2>Wich will you pick today?</h2>
         </Col>
       </Row>
       <Row>
