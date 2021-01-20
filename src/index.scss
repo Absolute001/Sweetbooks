@@ -178,12 +178,14 @@ body {
   font-size: 2em;
   color: $primary;
   transition: font-size 200ms;
+  position: relative;
 }
 
 .custom-icon:hover,
 .custom-icon:active,
 .custom-icon:focus {
   font-size: 3em;
+  bottom: 15%;
 }
 
 .description {
@@ -250,6 +252,5 @@ body {
 
   .search-bar::placeholder{
     font-size: 0.7em;
-    font-weight: 600;
   }
 }

@@ -204,12 +204,14 @@ body {
   color: white;
   -webkit-transition: font-size 200ms;
   transition: font-size 200ms;
+  position: relative;
 }
 
 .custom-icon:hover,
 .custom-icon:active,
 .custom-icon:focus {
   font-size: 3em;
+  bottom: 15%;
 }
 
 .description {
@@ -274,19 +276,15 @@ body {
   }
   .search-bar::-webkit-input-placeholder {
     font-size: 0.7em;
-    font-weight: 600;
   }
   .search-bar:-ms-input-placeholder {
     font-size: 0.7em;
-    font-weight: 600;
   }
   .search-bar::-ms-input-placeholder {
     font-size: 0.7em;
-    font-weight: 600;
   }
   .search-bar::placeholder {
     font-size: 0.7em;
-    font-weight: 600;
   }
 }
 /*# sourceMappingURL=index.css.map */
